@@ -1,43 +1,26 @@
 # Udacity-Programming-for-Data-Science-with-Python
-This repository contains projects for Udacity Programming For Data Science Using Python.
 
-## Project 1
+#Project Title
+US Bike share
 
-### Overview
-This project consisted by database movie rentals to run SQL queries and build visualizations to showcase the output of question
-For the presentation component includes four slidesthat answer the questions
+#Description
+key findings:
 
-### Project Submission
+1.Popular travel time
 
-## Project 2
+most common month , most common week ,most common time (i.e,at what period)
 
-### Overview
-Use of Python to explore data related to bike share systems for three major cities in the United States — Chicago, New York City, and Washington.
+2.Popular stations and trip
 
-### Project Submission
+most common start and end station ,most common combination of travel(i.e,start and end of the trip )
 
-### Python Learning In The Course
+3.Trip duration
 
-Check the link for my learning material.
+Total travel time,average travel time
 
-#### Files Used
+4.Raw data
 
-The required files for running this program are: 
+you can also view the raw data of random trip by filtering by month ,week ,destination,start point ,end point
 
-* washington.csv
-* new_york_city.csv
-* chicago.csv
-
-#### Requirements
-This program was written in Python (version 3.7.1) and relies on the following libraries:
-
-* pandas==0.23.4
-* numpy==1.15.4
-
-## Project 3
-
-This project consisted in using Git and GitHub with a simulated workflow to refactor Project 2.
-
-### Project Submission
-
-The Project Submission consisted in the filling of a template with all the Git commands used to perform the requested tasks.
+Files used
+bikeshare.py code for all mention above findings
